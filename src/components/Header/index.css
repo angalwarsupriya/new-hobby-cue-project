@@ -1,0 +1,146 @@
+/* General Styles */
+
+.header-bg-con {
+    width: 100%;
+    background-color: #ffffff;
+    padding-left: 50px;
+    position: fixed;
+  }
+  
+  .header-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-img {
+    height: 42px;
+    width: 65%;
+  }
+  
+  /* Search Bar */
+  .search-bar-con {
+    display: flex;
+    width: 100%;
+    height: 40px;
+  }
+  
+  .search-bar {
+    width: calc(100% - 40px); /* Adjust width considering icon width */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 13px;
+    background-color: transparent;
+    border: 1px solid gray;
+    outline: none;  
+    padding: 5px;
+    color: grey;
+  }
+  
+  .search-icon-con {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8064A2;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px; 
+  }
+  
+  /* Buttons and Icons */
+  .sign-in-btn {
+    height: 37px;
+    color: #8064A2;
+    border: 2px solid #8064A2;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 100px;
+    font-size: 13px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #8064A2;
+    color: #fff;
+  }
+  
+  .link-i1, .link-i2, .link-i3, .i {
+    color: #8064A2;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .link-i1 { font-size: 19px; }
+  .link-i2 { font-size: 23px; }
+  .link-i3 { font-size: 26px; }
+  .i { font-size: 21px; }
+  
+  .link-i1:hover, .link-i2:hover, .link-i3:hover, .i:hover {
+    color: #5a3d8a;
+  }
+  
+  .down {
+    font-size: 15px;
+    color: black;
+  }
+  
+  .link-img {
+    height: 20px;
+    width: 20px;
+  }
+  
+  p {
+    font-size: 15px;
+    color: black;
+    margin: 0;
+  }
+  
+  .link-p {
+    margin: 5px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 576px) {
+    .logo-img {
+      height: 32px;
+      width: 120px;
+    }
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    .logo-img {
+      height: 30px;
+      width: 120px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .logo-img {
+      height: 46px;
+      width: 110px;
+    }
+    .search-bar-con {
+      height: 30px;
+    }
+    .link-i1, .link-i2, .link-i3 {
+      margin-right: 5px;
+    }
+    .sign-in-btn {
+      height: 30px;
+      width: 80px;
+      font-size: 10px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .down {
+      font-size: 12px;
+    }
+    .link-img {
+      height: 12px;
+      width: 12px;
+    }
+  }
+  
