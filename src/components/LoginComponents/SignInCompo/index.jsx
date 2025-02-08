@@ -12,7 +12,7 @@ function SignInCompo() {
             <input type='password' className='input' placeholder='Passowrd'/>
             <p className='strenth-p'>Passowrd strengh</p>
 
-            <div className='sumit-con mt-md-2'>
+            <div className='sumit-con mt-2'>
                 <div className='remember-me-con d-flex align-item-center justify-content-between'>
                     <div className='remember-me-con-row d-flex'>
                         <input id='rememberme' type='checkbox' className='checkbox'/>

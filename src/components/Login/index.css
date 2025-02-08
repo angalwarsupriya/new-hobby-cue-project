@@ -89,7 +89,7 @@ button{
     font-size: 10px;
     color: gray;
     font-weight: bold;
-    margin-left: 78%;
+    margin-left: 80%;
    
 }
 .submmit-p{
@@ -112,6 +112,7 @@ button{
     border: none;
     border-radius: 10px;
     margin: 0px;
+    margin-top: 0px;
 }
 
 .checkbox{
@@ -144,7 +145,8 @@ label{
     font-size: 9px;
     color: gray;
     font-weight: bold;
-    margin-left: 60%;
+    margin-left: 80%;
+    margin-bottom: 10px;
    
 }
 .submmit-p{
@@ -163,7 +165,7 @@ label{
 }
 .submmit-btn{
     height: 35px;
-    width: 90%;
+    width: 100%;
     background-color: #8064A2;
     color: white;
     font-size: 14px;
