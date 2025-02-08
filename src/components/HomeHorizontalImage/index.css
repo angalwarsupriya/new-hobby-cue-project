@@ -5,7 +5,6 @@
 @media screen and (max-width: 576px) {
     .img{
         height: 20vh;
-
     }
 }
   
@@ -16,6 +15,11 @@
   }
   
   @media screen and (min-width: 768px) and (max-width: 993px) {
+    .img{
+        height: 25vh;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
     .img{
         height: 25vh;
     }
