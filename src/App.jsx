@@ -2,26 +2,22 @@ import './App.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-/*
-import Cards from '@/components/Cards/page';
-import './page.css'
-import Header from '@/components/Header/page'
-import Main from '@/components/Main/page';
-import AddOwnCard from '@/components/AddOwnCard/page';
-import Testimonial from '@/components/Testimonial/page';
-import  Login from '@/components/Login/page'
-import Footer from '@/components/Footer/page';
-*/
-// importing Components from Components Folder 
 import Header from './components/Header'
+import HomePage from './components/HomePage';
+import { Container, Row, Col } from 'react-bootstrap';
+import Cards from './components/Cards';
+import AddOwnCard from './components/AddOwnCard';
+import Testimonial from './components/Testimonial';
 
-import Button from 'react-bootstrap/Button';
 function App() {
 
   return (
     <>
-      <Header/>
+      <Header />
+      <HomePage />
+      <Cards />
+      <AddOwnCard />
+      <Testimonial/>
     </>
   )
 }

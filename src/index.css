@@ -11,7 +11,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+p{
+  font-family: Roboto;
+}
 a {
   font-weight: 500;
   color: #646cff;

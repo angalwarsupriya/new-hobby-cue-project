@@ -66,27 +66,3 @@ function Header() {
 }
 
 export default Header;
-
-
-
-          /*
-          <Row className='pop-up-links-con d-flex align-items-center justify-content-between' >
-            <Col className='explore-con d-flex align-items-center'>
-              <img src='images/Group.png' className='link-img'/>
-              <p className='link-p'>Explore</p>
-              <FaChevronDown className='down'/>
-            </Col>
-            <Col className='hobbies-con d-flex align-items-center'>
-              <img src='images/Hobbies.png' className='link-img' alt="Hobbies"/>
-              <p className='link-p'>Hobbies</p>
-              <FaChevronDown className='down'/>
-            </Col>
-          </Row>
-          <Row className='links-icons-con d-flex align-items-center justify-content-between'>
-            <Col className='d-flex justify-content-end'>
-              <FaBookmark className='link-i1'/>
-              <FaBell className='link-i2'/>
-              <PiShoppingCartSimpleFill className='link-i3'/>
-            </Col>
-          </Row>
-          <button className='sign-in-btn'>Sign In</button>*/

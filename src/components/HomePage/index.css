@@ -1,0 +1,34 @@
+
+.main-bg-con{
+    min-height: 120vh;
+}
+.row-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .main-bg-con{
+    min-height: 130vh;
+}
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .main-bg-con{
+    min-height: 130vh;
+}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .main-bg-con{
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .main-bg-con{
+    margin-top: 5vh;
+    min-height: 110vh;
+  }
+}

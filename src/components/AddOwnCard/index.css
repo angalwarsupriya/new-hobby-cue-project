@@ -1,0 +1,140 @@
+.add-own-card-bg-con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .add-own-card-con {
+    width: 87%;
+    padding: 2%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    transition: padding 0.3s, margin-top 0.3s;
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+  
+  .card-p {
+    font-size: 17px;
+    color: rgb(35, 35, 35);
+    line-height: 30px;
+  }
+  
+  .add-card-btn {
+    height: 40px;
+    width: 120px;
+    color: #0096C8;
+    border: 1px solid #0096C8;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .add-card-btn:hover{
+    background-color: #0096C8;
+    color: #ffffff;
+  }
+  .card-btn:hover {
+    background-color: #0096C8;
+    color: #fff;
+  }
+  
+  .top-row {
+    margin-bottom: 20px;
+  }
+
+
+@media screen and (max-width: 768px) {
+  .add-own-card-con {
+    width: 100%;
+  }
+ }
+
+  @media screen and (max-width: 576px) {
+    .icon {
+      font-size: 24px;
+    }
+  
+    .card-p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  
+    .card-btn {
+      width: 100px;
+      height: 30px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    .icon {
+      font-size: 28px;
+    }
+  
+    .card-p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  
+    .card-btn {
+      width: 110px;
+      height: 35px;
+      font-size: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    .icon {
+      font-size: 30px;
+    }
+  
+    .card-p {
+      font-size: 17px;
+      line-height: 30px;
+    }
+  
+    .card-btn {
+      width: 120px;
+      height: 35px;
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .icon {
+      font-size: 32px;
+    }
+  
+    .card-p {
+      font-size: 18px;
+      line-height: 32px;
+    }
+  
+    .card-btn {
+      width: 130px;
+      height: 38px;
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (min-width: 1201px) {
+    .icon {
+      font-size: 34px;
+    }
+  
+    .card-p {
+      font-size: 19px;
+      line-height: 34px;
+    }
+  
+    .card-btn {
+      width: 140px;
+      height: 40px;
+      font-size: 18px;
+    }
+  }
+  
