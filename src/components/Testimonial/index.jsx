@@ -33,7 +33,7 @@ function Testimonial() {
             </Col>
             <Col xs={12} className='card-bottom-con'>
               <Row className='mt-5'>
-                <Col xs={12} lg={7} className='order-2 order-lg-1'>
+                <Col xs={12} lg={7} className='order-2 order-lg-1 audio-img-con'>
                   <img src='/images/Audio Track.png' alt='audio-img' className='audio-img' />
                 </Col>  
                 <Col xs={12} lg={3} className='face-img-con d-flex justify-content-center align-items-center order-1 order-lg-2'>

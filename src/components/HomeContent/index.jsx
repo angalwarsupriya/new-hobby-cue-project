@@ -1,13 +1,15 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import {  Row, Col } from 'react-bootstrap';
 import './index.css';
+import HomeHorizontalImage from '../HomeHorizontalImage';
 
 function HomeContent() {
   return (
-
-        <Col xs={12} md={7}>
+    <Col xs={12} md={8}>
+        <Row>
+          <Col xs={12}>
           <div className='d-flex flex-column content-con'>
-            <h1 className='hea'>
+            <h1 className='home-page-main-hea'>
               Explore your <span className='hobby-h'>hobby</span> or <span className='passion-h'>passion</span>
             </h1>
             <p className='para'>
@@ -17,6 +19,11 @@ function HomeContent() {
                If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products,  services or events.  Hop on your hobbyhorse and enjoy the ride.
             </p>
           </div>
+        </Col>
+        <div className='d-none d-md-flex'>
+          <HomeHorizontalImage />
+        </div>        
+        </Row>        
         </Col>
   );
 }

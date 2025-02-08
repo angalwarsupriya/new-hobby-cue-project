@@ -13,12 +13,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function HomePage() {
     return (
-        <main style={{width:'100vw', height:'100vh'}} className='main-bg-con'>
-            <Container fluid >
+        <main style={{width:'100vw', height:'90vh'}} className='main-bg-con'>
+            <Container fluid style={{width:'88vw',height:'80%', paddingTop:'3%'}}>
               <Row className='row-1'>       
                 <HomeContent /> 
-                <Login />
-                <HomeHorizontalImage/>
+              <Login />
+              <div className='d-md-none'>
+                <HomeHorizontalImage className='d-md-none'/>
+              </div>      
               </Row>
             </Container>
         </main>

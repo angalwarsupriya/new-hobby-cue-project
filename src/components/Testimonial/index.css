@@ -38,6 +38,7 @@
  .card-bottom-con{
    height: 200px;
  }
+
  .audio-img {
     height: 100%;
     width: 100%;
@@ -53,12 +54,19 @@
      .testimonail-bg-con{
       width: 95vw;
      }
+     .audio-img{
+      height: 200px;
 
+     }
      .audio-face-img {
       height: 90%;
       width: 10%;
       margin-right: 2%;
     }
+    .audio-img-con{
+      height: 70px;
+      margin-top: 20px;
+   }
   }
  
 

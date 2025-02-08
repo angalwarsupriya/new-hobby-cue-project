@@ -42,7 +42,7 @@ function Header() {
                   <p className='link-p'>Explore</p>
                   <FaChevronDown className='down'/>
                 </div>
-                <div className='hobbies-con d-flex align-items-center' style={{backgroundColor:'red'}}>
+                <div className='hobbies-con d-flex align-items-center'>
                   <img src='/images/Hobbies.png' className='link-img' alt="Hobbies"/>
                   <p className='link-p'>Hobbies</p>
                   <FaChevronDown className='down'/>
@@ -54,7 +54,7 @@ function Header() {
                 <PiShoppingCartSimpleFill className='link-i3'/>
               </Col>
               <Col md={2}>
-                <button className='sign-in-btn'>Sign In</button>
+                <button className='sign-in-btn m-0'>Sign In</button>
               </Col>
           </Row>
          

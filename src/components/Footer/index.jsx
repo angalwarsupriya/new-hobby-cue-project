@@ -62,7 +62,7 @@ function Footer() {
               <h6 className='footer-link-title'>Invite Friend</h6>
               <div className='search-bar-con'>
                 <input type='search' className='search-bar' placeholder='Email ID' />
-                <button className='footer-search-icon-con'>Invite</button>
+                <button className='footer-search-btn'>Invite</button>
               </div>
             </div>
           </Col>

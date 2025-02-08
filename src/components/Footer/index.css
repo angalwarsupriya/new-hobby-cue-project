@@ -7,7 +7,13 @@
   .c-icon {
     font-size: 15px;
   }
-  
+  .search-con{
+    height: 100%;
+  }
+ .search-bar-con{
+  height: 40px;
+
+ }
   .icon-con {
     height: 30px;
     width: 38px;
@@ -42,7 +48,7 @@
     cursor: pointer;
   }
   
-  .footer-search-icon-con {
+  .footer-search-btn {
     font-size: 11px;
     font-weight: bold;
     display: flex;
@@ -51,8 +57,10 @@
     color: white;
     background-color: blueviolet;
     width: 50px;
+    height: 100%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    margin: 0px;
   }
   
   .c-con {

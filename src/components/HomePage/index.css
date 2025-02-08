@@ -4,19 +4,18 @@
 }
 .row-1{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 576px) {
   .main-bg-con{
-    min-height: 130vh;
+    min-height: 160vh;
 }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .main-bg-con{
-    min-height: 130vh;
+    min-height: 180vh;
 }
 }
 
