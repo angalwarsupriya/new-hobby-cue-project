@@ -1,0 +1,127 @@
+.bg-con {
+    width: 100%;
+    margin-top: 80px;
+  }
+  
+  .main-hea {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  
+  .main-span-hobby {
+    color: #8064A2;
+  }
+  
+  .main-span-community {
+    color: #0096C8;
+  }
+  
+  .get-start-btn {
+    background-color: #8064A2;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .main-img-con {
+    height:25;
+    width: 100%;
+    margin-top: 50px;
+
+  }
+  
+  .main-img-img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .main-img-con {
+      height: 100px;
+    }
+  
+    .main-hea {
+      font-size: 25px;
+    }
+  
+    .get-start-btn {
+      font-size: 12px;
+      font-weight: 300;
+      height: 35px;
+      width: 100px;
+      border: none;
+      border-radius: 3px;
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    .main-img-con {
+      height: 15vh;
+    }
+  
+    .main-hea {
+      font-size: 28px;
+    }
+  
+    .get-start-btn {
+      font-size: 14px;
+      height: 38px;
+      width: 110px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    .main-img-con {
+      height: 20vh;
+    }
+  
+    .main-hea {
+      font-size: 30px;
+    }
+  
+    .get-start-btn {
+      font-size: 15px;
+      height: 40px;
+      width: 130px;
+    }
+  }
+  
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .main-img-con {
+      height: 22vh;
+    }
+  
+    .main-hea {
+      font-size: 32px;
+    }
+  
+    .get-start-btn {
+      font-size: 16px;
+      height: 42px;
+      width: 140px;
+    }
+  }
+  
+  @media screen and (min-width: 1201px) {
+    .main-img-con {
+      height: 29vh;
+    }
+  
+    .main-hea {
+      font-size: 34px;
+    }
+  
+    .get-start-btn {
+      font-size: 17px;
+      height: 44px;
+      width: 150px;
+    }
+  }
+  

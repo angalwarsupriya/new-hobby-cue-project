@@ -8,6 +8,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Cards from './components/Cards';
 import AddOwnCard from './components/AddOwnCard';
 import Testimonial from './components/Testimonial';
+import Footer from './components/Footer';
+import HobbyCommunity from './components/HobbyCommunity';
 
 function App() {
 
@@ -17,7 +19,9 @@ function App() {
       <HomePage />
       <Cards />
       <AddOwnCard />
-      <Testimonial/>
+      <Testimonial />
+      <HobbyCommunity/>
+      <Footer/>
     </>
   )
 }

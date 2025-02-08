@@ -3,7 +3,7 @@
 .header-bg-con {
     width: 100%;
     background-color: #ffffff;
-    padding-left: 50px;
+  
   }
   
   .header-row {
@@ -14,8 +14,8 @@
   }
   
   .logo-img {
-    height: 42px;
-    width: 65%;
+    height: 50px;
+    width: 100%;
   }
   
   /* Search Bar */

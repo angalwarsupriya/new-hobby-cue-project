@@ -15,9 +15,9 @@ import { FaChevronDown } from "react-icons/fa";
 
 function Header() {
   return (
-    <header className='header-bg-con d-flex align-items-center pt-3 pb-3'>
-      <Container fluid>
-      <Row className='align-items-center header-row'>
+    <header className='header-bg-con d-flex align-items-center pt-3 pb-3' >
+      <Container fluid style={{width:'88vw'}}>
+        <Row className='align-items-center header-row'>
           <Col xs={5} md={2}>
             <img src='/images/HobbyCue Logo.png' className='logo-img' alt="HobbyCue Logo"/>
           </Col>
@@ -36,24 +36,24 @@ function Header() {
           </Col>
           <Col md={6} lg={5} className='con3 d-none d-md-flex justify-content-between'>
             <Row className='d-flex align-items-center justify-content-between' style={{ width: '100%' }}>
-              <Col className='d-flex align-items-center'>
+              <Col className='d-flex align-items-center' md={7}>
                 <div className='explore-con d-flex align-items-center'>
                   <img src='/images/Group.png' className='link-img' alt="Explore"/>
                   <p className='link-p'>Explore</p>
                   <FaChevronDown className='down'/>
                 </div>
-                <div className='hobbies-con d-flex align-items-center'>
+                <div className='hobbies-con d-flex align-items-center' style={{backgroundColor:'red'}}>
                   <img src='/images/Hobbies.png' className='link-img' alt="Hobbies"/>
                   <p className='link-p'>Hobbies</p>
                   <FaChevronDown className='down'/>
                 </div>
               </Col>
-              <Col className='d-flex align-items-center justify-content-end'>
+              <Col className='d-flex align-items-center justify-content-end' md={3}>
                 <FaBookmark className='link-i1'/>
                 <FaBell className='link-i2'/>
                 <PiShoppingCartSimpleFill className='link-i3'/>
               </Col>
-              <Col>
+              <Col md={2}>
                 <button className='sign-in-btn'>Sign In</button>
               </Col>
           </Row>
