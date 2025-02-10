@@ -53,7 +53,9 @@ function Footer() {
                 <IoMail />
               ].map((icon, iconIndex) => (
                 <div key={iconIndex} className='icon-con d-flex align-items-center justify-content-center'>
-                  {icon}
+                  <a href={void(0)} className='d-flex align-items-center justify-content-center'>
+                    {icon}
+                  </a>         
                 </div>
               ))}
             </div>

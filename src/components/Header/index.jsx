@@ -9,8 +9,10 @@ import { MdMenu } from "react-icons/md";
 import { PiShoppingCartSimpleFill } from "react-icons/pi";
 import { FaBell } from "react-icons/fa"
 import { FaBookmark } from "react-icons/fa6";
-import { FaChevronDown } from "react-icons/fa"; 
+import DropdownCompo from '../../DropdownCompo/DropdownCompo';
 
+const exploreList = [{id:1, item:'People - Community'}, {id:2, item:'Places - Venues'}, {id:3, item:'Programs - Events'}, {id:4, item:'Products - Store'}, {id:5, item:'Blogs'}]
+const hobbiesList = [{id:1, item:'Playing'}, {id:2, item:'Singing'}, {id:3, item:'Reading Books'}, {id:4, item:'Watching Tv'}, {id:5, item:'Plan for a Trip'}]
 // starting writing Header Components
 
 function Header() {
@@ -35,17 +37,17 @@ function Header() {
             </div>
           </Col>
           <Col md={6} lg={5} className='con3 d-none d-md-flex justify-content-between'>
-            <Row className='d-flex align-items-center justify-content-between' style={{ width: '100%' }}>
-              <Col className='d-flex align-items-center' md={7}>
+            <Row className='d-flex align-items-center justify-content-between'>
+              <Col className='d-flex align-items-center justify-content-between' md={6} >
                 <div className='explore-con d-flex align-items-center'>
                   <img src='/images/Group.png' className='link-img' alt="Explore"/>
                   <p className='link-p'>Explore</p>
-                  <FaChevronDown className='down'/>
+                  <DropdownCompo itemsList={exploreList} />
                 </div>
-                <div className='hobbies-con d-flex align-items-center'>
+                <div className='d-flex align-items-center justify-content-center'> 
                   <img src='/images/Hobbies.png' className='link-img' alt="Hobbies"/>
                   <p className='link-p'>Hobbies</p>
-                  <FaChevronDown className='down'/>
+                  <DropdownCompo itemsList={hobbiesList} />
                 </div>
               </Col>
               <Col className='d-flex align-items-center justify-content-end' md={3}>
@@ -56,8 +58,7 @@ function Header() {
               <Col md={2}>
                 <button className='sign-in-btn m-0'>Sign In</button>
               </Col>
-          </Row>
-         
+          </Row>        
           </Col>
         </Row>
       </Container>

@@ -1,0 +1,15 @@
+.dropdown-btn{
+    background-color: white;
+    margin: 0px;
+    color: black;
+    border: 0px;
+    padding: 5px;
+}
+.dropdown-btn:hover{
+    background-color: transparent;
+    color: black;
+}
+.drop-item{
+   border-bottom:1px solid rgb(216, 215, 215);
+   padding: 10px;
+}

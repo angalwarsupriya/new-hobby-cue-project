@@ -11,9 +11,9 @@ function JoinInCompo() {
         <input type='email' className='input' placeholder='Email'/>
         <input type='password' className='input' placeholder='Passowrd'/>
         <p className='strenth-p'>Passowrd strengh</p>
-
+ 
         <div className='sumit-con mt-md-2'>
-            <p className='submmit-p mb-md-1'>by continuin, your agree to our <span className='span-p'>Terms of Service</span> and <span className='span-p'>Policy</span></p>
+            <p className='submmit-p mb-md-1 mt-3'>by continuin, your agree to our <span className='span-p'>Terms of Service</span> and <span className='span-p'>Policy</span></p>
             <button type='submit' className='submmit-btn'>Continue</button>
         </div>
     </form>

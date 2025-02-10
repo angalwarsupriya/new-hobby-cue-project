@@ -10,11 +10,10 @@ function SignInCompo() {
         <form className='form-con order-md-3'>
             <input type='email' className='input' placeholder='Email'/>
             <input type='password' className='input' placeholder='Passowrd'/>
-            <p className='strenth-p'>Passowrd strengh</p>
-
-            <div className='sumit-con mt-2'>
+            
+            <div className='sumit-con mt-5'>
                 <div className='remember-me-con d-flex align-item-center justify-content-between'>
-                    <div className='remember-me-con-row d-flex'>
+                    <div className='remember-me-con-row d-flex mb-2'>
                         <input id='rememberme' type='checkbox' className='checkbox'/>
                         <label htmlFor='rememberme'> Remember me</label>
                     </div>
